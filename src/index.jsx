@@ -5,7 +5,7 @@ import ReactDOM from "react-dom";
 
 const App = () => (
   <div>
-    <CKEditor editor={ClassicEditor} data={"Text"} disabled={false} />
+    <CKEditor editor={ClassicEditor} />
   </div>
 );
 
